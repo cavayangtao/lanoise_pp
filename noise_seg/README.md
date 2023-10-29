@@ -6,7 +6,7 @@ Denoising the point cloud.
 
 The package is tested in Ubuntu 18.04/ROS Melodic, Python 3.7 and Ubuntu 20.04/ROS Noedic, Python 3.8.
 
-Requirements are same as [RandLA-Net](RandLA-Net).
+Requirements are same as [RandLA-Net](.../RandLA-Net).
 
 example:
 
