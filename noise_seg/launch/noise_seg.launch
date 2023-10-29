@@ -1,0 +1,12 @@
+<launch>
+
+  <node pkg="noise_seg" type="noise_seg.py" name="noise_seg" output="screen" respawn="true">
+    <param name="nice_model_path" value="$(find noise_seg)/models/23_v_acc=0.991_v_iou=0.9765437411792959_state_dict.pth"/>
+  
+    <!-- uncomment here for custom topic names
+    <remap from="/velodyne_points" to="/your_lidar_topic"/>
+    <remap from="/filtered_points" to="/noisy_lidar_topic"/>
+    -->
+  </node>
+    
+</launch> 
